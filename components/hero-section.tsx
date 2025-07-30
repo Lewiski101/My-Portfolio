@@ -243,7 +243,7 @@ export default function HeroSection() {
                     pacifico.className,
                   )}
                 >
-                  I'm Lewiski ,
+                  I'm Lewiski
                 </span>
               </h1>
             </motion.div>

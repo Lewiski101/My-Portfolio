@@ -19,36 +19,6 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "Lewiski | Software Engineer & Creative Designer",
   description: "Portfolio of Lewiski - Software Engineer, Logo Designer, Graphics & Video Editor, Content Creator",
-  metadataBase: new URL("https://itslewiski.vercel.app"),
-  openGraph: {
-    title: "Lewiski | Software Engineer & Creative Designer",
-    description: "Portfolio of Lewiski - Software Engineer, Logo Designer, Graphics & Video Editor, Content Creator",
-    url: "https://itslewiski.vercel.app",
-    siteName: "Lewiski Portfolio",
-    images: [
-      {
-        url: "/favicon.png",
-        width: 1200,
-        height: 630,
-        alt: "Lewiski Portfolio",
-      },
-    ],
-    locale: "en_US",
-    type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Lewiski | Software Engineer & Creative Designer",
-    description: "Portfolio of Lewiski - Software Engineer, Logo Designer, Graphics & Video Editor, Content Creator",
-    images: ["/favicon.png"],
-    creator: "@KingLewiski",
-  },
-  icons: {
-    icon: [{ url: "/favicon.ico" }, { url: "/favicon.png" }],
-    apple: [{ url: "/apple-icon.png" }],
-    shortcut: ["/favicon.png"],
-  },
-  manifest: "/site.webmanifest",
     generator: 'v0.dev'
 }
 
@@ -61,9 +31,6 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head>
         <VercelAnalyticsScript />
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="icon" href="/favicon.png" type="image/png" />
-        <link rel="apple-touch-icon" href="/apple-icon.png" />
       </head>
       <body className={`${inter.variable} ${poppins.variable} font-sans`}>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
