@@ -19,7 +19,7 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "Lewiski | Software Engineer & Creative Designer",
   description: "Portfolio of Lewiski - Software Engineer, Logo Designer, Graphics & Video Editor, Content Creator",
-    generator: 'v0.dev'
+    generator: 'v0.app'
 }
 
 export default function RootLayout({
